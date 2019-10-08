@@ -1,0 +1,29 @@
+#db_title_and_tagline  {
+	display: inline-block !important;
+	vertical-align: middle;
+	max-height: 100%; /* Keeps logo in the right place */
+	overflow: hidden !important;
+}
+#db_title_and_tagline  #logo-tagline-above {
+	display: block !important;
+	visibility: hidden;
+}
+#db_title_and_tagline  #logo-text {
+	display: block;
+}
+#db_title_and_tagline  #logo-tagline,
+#db_title_and_tagline  #logo-tagline-above {
+	display: block;
+	margin-left: 0;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+	line-height: 1em;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.et-fixed-header #db_title_and_tagline  .logo-tagline {
+	font-size:0;
+	opacity: 0;
+	line-height: 0;
+}
